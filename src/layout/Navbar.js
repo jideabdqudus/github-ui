@@ -22,6 +22,11 @@ const Navbar = () => {
         <Col xs={6}>
           <input className="headerInput" placeholder="Search or Jump to" />
         </Col>
+        <div className="headerCol">
+          <b className="headerText">Pull Requests</b>
+          <b className="headerText">Pull Requests</b>
+          <b className="headerText">Pull Requests</b>
+        </div>
       </Row>
     </div>
   );

@@ -20,3 +20,18 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.headerText {
+    padding: 4px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.headerCol{
+    display: block;
+    -ms-flex: 0 0 54.16666667%;
+    flex: 0 0 54.16666667%;
+    max-width: 54.16666667%;
+    padding: 10px;
+}
