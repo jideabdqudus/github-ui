@@ -1,19 +1,22 @@
-.headerTab{
-    background-color: #24292e;
-    color: hsla(0,0%,100%,0.7);
-    padding-right: 32px;
-    padding-left: 32px;
-    line-height: 1.5;
-    font-size: 14px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.headerTab {
+  background-color: #24292e;
+  color: hsla(0, 0%, 100%, 0.7);
+  padding-right: 32px;
+  padding-left: 32px;
+  line-height: 1.5;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.headerInput{
-    background-color: transparent !important;
-    border-radius: 6px !important;
-    font-size: 14px;
-    line-height: 1.5;
-    color: hsla(0,0%,100%,0.7);
-    min-height: 28px;
+.headerInput {
+  background-color: transparent !important;
+  border: 1px #959da5 solid !important;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

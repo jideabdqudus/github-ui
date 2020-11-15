@@ -17,13 +17,10 @@ const Navbar = () => {
     <div className="headerTab">
       <Row>
         <Col xs={1}>
-          <img src={GithubLogo} alt="Logo" />
+          <GithubOutlined style={{ fontSize: "25px", padding: "5px" }} />
         </Col>
-        <Col xs={4}>
-          <input
-            className="headerInput"
-            suffix={<InfoCircleOutlined style={{ color: "rgba(0,0,0,.45)" }} />}
-          />
+        <Col xs={6}>
+          <input className="headerInput" placeholder="Search or Jump to" />
         </Col>
       </Row>
     </div>
