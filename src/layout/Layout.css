@@ -5,8 +5,9 @@
   padding-left: 32px;
   line-height: 1.5;
   font-size: 14px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .headerInput {
@@ -22,16 +23,22 @@
 }
 
 .headerText {
-    padding: 4px;
+  padding: 4px;
   font-size: 15px;
   color: #fff;
   margin-top: 30px;
 }
 
-.headerCol{
-    display: block;
-    -ms-flex: 0 0 54.16666667%;
-    flex: 0 0 54.16666667%;
-    max-width: 54.16666667%;
-    padding: 10px;
+.headerCol {
+  display: block;
+  -ms-flex: 0 0 54.16666667%;
+  flex: 0 0 54.16666667%;
+  max-width: 54.16666667%;
+  padding: 10px;
+}
+
+.headerIcons {
+  font-size: 20px;
+  color: #fff;
+  padding-right: 9px;
 }

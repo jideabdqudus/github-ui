@@ -17,16 +17,28 @@ const Navbar = () => {
     <div className="headerTab">
       <Row>
         <Col xs={1}>
-          <GithubOutlined style={{ fontSize: "25px", padding: "5px" }} />
+          <GithubOutlined style={{ fontSize: "35px", padding: "5px" }} />
         </Col>
-        <Col xs={6}>
+        <Col xs={5}>
           <input className="headerInput" placeholder="Search or Jump to" />
         </Col>
         <div className="headerCol">
           <b className="headerText">Pull Requests</b>
-          <b className="headerText">Pull Requests</b>
-          <b className="headerText">Pull Requests</b>
+          <b className="headerText">Issues</b>
+          <b className="headerText">Market Place</b>
+          <b className="headerText">Explore</b>
         </div>
+        <Col xs={4} style={{ padding: "10px" }}>
+          <div style={{ float: "right" }}>
+            <UserOutlined className="headerIcons" />
+          </div>
+          <div style={{ float: "right" }}>
+            <PlusOutlined className="headerIcons" />
+          </div>
+          <div style={{ float: "right" }}>
+            <BellOutlined className="headerIcons" />
+          </div>
+        </Col>
       </Row>
     </div>
   );
