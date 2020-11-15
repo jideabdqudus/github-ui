@@ -3,6 +3,14 @@ import React from "react";
 import TheRepo from "./TheRepo";
 import Avatar from "../assets/Avatar.png";
 import "./Components.css";
+import {
+  TeamOutlined,
+  StarOutlined,
+  PushpinOutlined,
+  LinkOutlined,
+  HeatMapOutlined,
+  FacebookOutlined,
+} from "@ant-design/icons";
 
 const TheRepos = () => {
   return (
@@ -21,8 +29,23 @@ const TheRepos = () => {
                   backends. Tech Junkie with penchant for design.
                 </h4>
               </div>
+              <Button block>Edit Profile</Button>
             </div>
           </div>
+          <Row>
+            <TeamOutlined />
+            12 followers . 42 following
+            <StarOutlined />
+            10
+          </Row>
+          <PushpinOutlined /> Lagos, Nigeria
+          <LinkOutlined /> www.abdulqudus.com
+          <Divider />
+          <h4>Highlights</h4>
+          <HeatMapOutlined /> Arctic Code Vault Contributor
+          <Divider />
+          <h4>Organizations</h4>
+          <FacebookOutlined />
         </Col>
 
         <Col xs={18}>
