@@ -25,7 +25,7 @@ const TheProfile = () => {
               backends. Tech Junkie with penchant for design.
             </h4>
           </div>
-          <Button block>Edit Profile</Button>
+          <Button block className="btn1">Edit Profile</Button>
         </div>
       </div>
       <Row>

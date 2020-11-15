@@ -17,13 +17,32 @@
   font-weight: 300;
 }
 
-.bio{
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 16px;
-
+.bio {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.btn1{
-    
+.btn1 {
+  color: #24292e !important;
+  background-color: #fafbfc !important;
+  box-shadow: var(--color-btn-shadow), var(--color-btn-inset-shadow) !important;
+  transition: color 0.2s cubic-bezier(0.3, 0, 0.5, 1) 0s, background-color,
+    border-color !important;
+  position: relative !important;
+  display: inline-block !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 20px !important;
+  white-space: nowrap !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  appearance: none !important;
+  padding: 5px 16px !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: none !important;
+  border-image: initial !important;
+  border-radius: 6px !important;
 }
