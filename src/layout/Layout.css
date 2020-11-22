@@ -5,14 +5,14 @@
   padding-left: 32px;
   line-height: 1.5;
   font-size: 14px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .headerInput {
   background-color: transparent !important;
-  border: 1px #959da5 solid !important;
+  border: 0.3px grey solid !important;
   border-radius: 6px;
   font-size: 14px;
   padding: 5px;
@@ -20,13 +20,19 @@
   color: white;
   margin-top: 5px;
   margin-bottom: 5px;
+  padding-left: 15px;
+}
+
+::placeholder {
+  color: #e1e4e8;
 }
 
 .headerText {
-  padding: 4px;
-  font-size: 15px;
+  padding: 10px;
+  font-size: 14px;
   color: #fff;
   margin-top: 30px;
+  font-weight: 600;
 }
 
 .headerCol {
@@ -38,7 +44,7 @@
 }
 
 .headerIcons {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
   padding-right: 9px;
 }

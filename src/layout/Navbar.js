@@ -8,7 +8,7 @@ import {
   PlusOutlined,
 } from "@ant-design/icons";
 import "./Layout.css";
-import GithubLogo from "../assets/GithubLogo.svg";
+import Avatar from "../assets/Avatar.png";
 
 const { Header } = Layout;
 
@@ -22,15 +22,17 @@ const Navbar = () => {
         <Col xs={5}>
           <input className="headerInput" placeholder="Search or Jump to" />
         </Col>
-        <div className="headerCol">
-          <b className="headerText">Pull Requests</b>
-          <b className="headerText">Issues</b>
-          <b className="headerText">Market Place</b>
-          <b className="headerText">Explore</b>
-        </div>
-        <Col xs={4} style={{ padding: "10px" }}>
+        <Col xs={16}>
+          <div className="headerCol">
+            <b className="headerText">Pull Requests</b>
+            <b className="headerText">Issues</b>
+            <b className="headerText">Market Place</b>
+            <b className="headerText">Explore</b>
+          </div>
+        </Col>
+        <Col xs={2} style={{ padding: "10px" }}>
           <div style={{ float: "right" }}>
-            <UserOutlined className="headerIcons" />
+            <img src={Avatar} height="20" style={{ borderRadius: "100px" }} />
           </div>
           <div style={{ float: "right" }}>
             <PlusOutlined className="headerIcons" />
