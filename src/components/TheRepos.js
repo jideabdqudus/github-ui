@@ -2,6 +2,7 @@ import { Divider, Input, Row, Col, Button } from "antd";
 import React from "react";
 import TheRepo from "./TheRepo";
 import "./Components.css";
+import { BookOutlined } from "@ant-design/icons";
 
 import TheProfile from "./TheProfile";
 
@@ -10,27 +11,39 @@ const TheRepos = () => {
     <div className="container">
       <Row>
         <Col xs={6}>
-          <TheProfile/>
+          <TheProfile />
         </Col>
-
-        <Col xs={18}>
+        <Col xs={1}></Col>
+        <Col xs={17}>
           <Row>
-            <Col xs={18}>
+            <Col xs={14}>
               {" "}
-              <Input placeholder="Find a repository" />
+              <Input
+                placeholder="Find a repository.."
+                style={{ borderRadius: "5px", marginRight: "0px" }}
+              />
             </Col>
+            <Col xs={1}></Col>
             <Col xs={2}>
-              <Button>Type: All</Button>
+              <Button className="btn1">Type: All</Button>
             </Col>
+            <Col xs={1}></Col>
             <Col xs={2}>
-              <Button>Language: All</Button>
+              <Button className="btn1">Language: All</Button>
             </Col>
+            <Col xs={1}></Col>
+            <Col xs={1}></Col>
             <Col xs={2}>
-              <Button>New</Button>
+              <Button className="btn2">
+                <BookOutlined />
+                New
+              </Button>
             </Col>
           </Row>
           <Divider />
-          <h3>124 results from public repositories</h3>
+
+          <TheRepo />
+          <TheRepo />
           <TheRepo />
         </Col>
       </Row>

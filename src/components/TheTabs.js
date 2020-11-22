@@ -6,16 +6,13 @@ const { TabPane } = Tabs;
 
 const TheTabs = () => {
   return (
-    <Tabs defaultActiveKey="1" centered>
-      <TabPane tab="Tab 1" key="1">
+    <Tabs defaultActiveKey="2" centered>
+      <TabPane tab="Overview" disabled></TabPane>
+      <TabPane tab={`Repositories`} key="2">
         <TheRepos />
       </TabPane>
-      <TabPane tab="Tab 2" key="2">
-        Content of Tab Pane 2
-      </TabPane>
-      <TabPane tab="Tab 3" key="3">
-        Content of Tab Pane 3
-      </TabPane>
+      <TabPane tab="Projects" disabled></TabPane>
+      <TabPane tab="Packages" disabled></TabPane>
     </Tabs>
   );
 };

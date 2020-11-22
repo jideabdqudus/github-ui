@@ -13,7 +13,7 @@ import { Divider, Row, Col, Button } from "antd";
 import StartNG from "../assets/61734947.jpg";
 const TheProfile = () => {
   return (
-    <div>
+    <div style={{ position: "relative", top: "-55px" }}>
       <div style={{ paddingRight: "20px" }}>
         {" "}
         <img src={Avatar} alt="Avatar" className="avatar" />
@@ -36,7 +36,7 @@ const TheProfile = () => {
         </div>
       </div>
       <Row style={{ marginBottom: "20px" }}>
-        <TeamOutlined style={{marginTop:"5px"}}/>
+        <TeamOutlined style={{ marginTop: "5px" }} />
         <span>
           <b>12</b> followers . <b>42</b> following
         </span>
