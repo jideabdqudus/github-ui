@@ -11,15 +11,15 @@ import {
 } from "@ant-design/icons";
 import { Divider, Row, Col, Button } from "antd";
 import StartNG from "../assets/61734947.jpg";
-const TheProfile = () => {
+const TheProfile = ({data}) => {
   return (
     <div style={{ position: "relative", top: "-55px" }}>
       <div style={{ paddingRight: "20px" }}>
         {" "}
         <img src={Avatar} alt="Avatar" className="avatar" />
         <div>
-          <h1 className="firstName">Jide Abdul-Qudus.</h1>
-          <h2 className="userName">jideabdqudus</h2>
+          <h1 className="firstName">{data.name}</h1>
+          <h2 className="userName">{data.login}</h2>
           <div>
             <h4 className="bio">
               Software Developer (MERN). I build web apps with API-centric

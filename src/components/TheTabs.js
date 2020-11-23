@@ -4,15 +4,15 @@ import TheRepos from "./TheRepos";
 
 const { TabPane } = Tabs;
 
-const TheTabs = () => {
+const TheTabs = ({data, repos}) => {
   return (
     <Tabs defaultActiveKey="2" centered>
-      <TabPane tab="Overview" disabled></TabPane>
+      <TabPane tab="Overview" disabled key="1"></TabPane>
       <TabPane tab={`Repositories`} key="2">
-        <TheRepos />
+        <TheRepos data={data} repos={repos} />
       </TabPane>
-      <TabPane tab="Projects" disabled></TabPane>
-      <TabPane tab="Packages" disabled></TabPane>
+      <TabPane tab="Projects" disabled key="3"></TabPane>
+      <TabPane tab="Packages" disabled key="4"></TabPane>
     </Tabs>
   );
 };

@@ -6,12 +6,12 @@ import { BookOutlined } from "@ant-design/icons";
 
 import TheProfile from "./TheProfile";
 
-const TheRepos = () => {
+const TheRepos = ({data, repos}) => {
   return (
     <div className="container">
       <Row>
         <Col xs={6}>
-          <TheProfile />
+          <TheProfile data={data} />
         </Col>
         <Col xs={1}></Col>
         <Col xs={17}>
@@ -42,9 +42,7 @@ const TheRepos = () => {
           </Row>
           <Divider />
 
-          <TheRepo />
-          <TheRepo />
-          <TheRepo />
+          <TheRepo repos={repos} />
         </Col>
       </Row>
     </div>
